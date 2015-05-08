@@ -6,5 +6,7 @@ target 'BonjourTool' do
 end
 
 target 'iosProvider' do
+  platform :ios, '8.0'
+  use_frameworks!
   pod "GCDWebServer", "~> 3.0"
 end

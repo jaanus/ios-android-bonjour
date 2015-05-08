@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B90CD67B2991FF5ADDBB5CF2 /* libPods-iosProvider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D26F729A0C0DDE1FAF71DDDF /* libPods-iosProvider.a */; };
+		0D414078B7B18BB1854F872C /* Pods_iosProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C38B57E1482B85E08A989F /* Pods_iosProvider.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EAAE21F41AFCE4C9003884CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE21F31AFCE4C9003884CA /* AppDelegate.swift */; };
 		EAAE21F61AFCE4C9003884CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE21F51AFCE4C9003884CA /* Images.xcassets */; };
 		EAAE21F91AFCE4C9003884CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE21F71AFCE4C9003884CA /* MainMenu.xib */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		31B03B19765DDDE6C984EB3B /* Pods-iosProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosProvider.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosProvider/Pods-iosProvider.release.xcconfig"; sourceTree = "<group>"; };
 		67479AD3891AC8D0F3CCEB27 /* Pods-iosProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosProvider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosProvider/Pods-iosProvider.debug.xcconfig"; sourceTree = "<group>"; };
-		D26F729A0C0DDE1FAF71DDDF /* libPods-iosProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iosProvider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C38B57E1482B85E08A989F /* Pods_iosProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAE21EE1AFCE4C9003884CA /* BonjourTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAE21F21AFCE4C9003884CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAAE21F31AFCE4C9003884CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90CD67B2991FF5ADDBB5CF2 /* libPods-iosProvider.a in Frameworks */,
+				0D414078B7B18BB1854F872C /* Pods_iosProvider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 		FC92E2BA1B2ABEDF81D60755 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D26F729A0C0DDE1FAF71DDDF /* libPods-iosProvider.a */,
+				C6C38B57E1482B85E08A989F /* Pods_iosProvider.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,6 +167,7 @@
 				EAAE22131AFCE711003884CA /* Frameworks */,
 				EAAE22141AFCE711003884CA /* Resources */,
 				7B703A43F7B0C082B6DE4897 /* Copy Pods Resources */,
+				4C0646A15531CAADB79745C4 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +238,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4C0646A15531CAADB79745C4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosProvider/Pods-iosProvider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7B703A43F7B0C082B6DE4897 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
