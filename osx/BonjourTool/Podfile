@@ -1,0 +1,10 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'BonjourTool' do
+
+end
+
+target 'iosProvider' do
+  pod "GCDWebServer", "~> 3.0"
+end
