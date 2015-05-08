@@ -48,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setupWebserver() {
         server.addHandlerForMethod("GET", path: "/", requestClass: GCDWebServerDataRequest.self, processBlock: {
             request in
-            return GCDWebServerDataResponse(HTML: "Hello, world, from iOS. \(UIDevice.currentDevice().name) Running at \(self.server.serverURL)")
+            return GCDWebServerDataResponse(HTML: "Hello, world, from iOS. Device “\(UIDevice.currentDevice().name)” running at address \(self.server.serverURL)")
         })
         
         var serverStartError: NSError?
