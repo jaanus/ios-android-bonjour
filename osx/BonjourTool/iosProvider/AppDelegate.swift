@@ -13,10 +13,11 @@ import GCDWebServer
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let server = GCDWebServer()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        setupWebserver()
         return true
     }
 
@@ -45,8 +46,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func setupWebserver() {
+        server.addHandlerForMethod("GET", path: "/", requestClass: GCDWebServerDataRequest.self, processBlock: {
+            request in
+            return GCDWebServerDataResponse(HTML: "Hello, world, from iOS.")
+        })
         
+        var serverStartError: NSError?
+        server.startWithOptions([
+            GCDWebServerOption_Port: 0,
+            GCDWebServerOption_BonjourType: "_jktest._tcp",
+            GCDWebServerOption_BonjourName: ""
+            ], error: &serverStartError)
+        println("Server started at URL \(server.serverURL). Start error: \(serverStartError)")
     }
 
 }
-
