@@ -11,6 +11,8 @@
 		EAAE21F61AFCE4C9003884CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE21F51AFCE4C9003884CA /* Images.xcassets */; };
 		EAAE21F91AFCE4C9003884CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE21F71AFCE4C9003884CA /* MainMenu.xib */; };
 		EAAE22051AFCE4C9003884CA /* BonjourToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE22041AFCE4C9003884CA /* BonjourToolTests.swift */; };
+		EAAE220F1AFCE5FA003884CA /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE220E1AFCE5FA003884CA /* WindowController.swift */; };
+		EAAE22111AFCE60A003884CA /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE22101AFCE60A003884CA /* WindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		EAAE21FE1AFCE4C9003884CA /* BonjourToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAE22031AFCE4C9003884CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAAE22041AFCE4C9003884CA /* BonjourToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourToolTests.swift; sourceTree = "<group>"; };
+		EAAE220E1AFCE5FA003884CA /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		EAAE22101AFCE60A003884CA /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				EAAE21F51AFCE4C9003884CA /* Images.xcassets */,
 				EAAE21F71AFCE4C9003884CA /* MainMenu.xib */,
 				EAAE21F11AFCE4C9003884CA /* Supporting Files */,
+				EAAE220E1AFCE5FA003884CA /* WindowController.swift */,
+				EAAE22101AFCE60A003884CA /* WindowController.xib */,
 			);
 			path = BonjourTool;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 			files = (
 				EAAE21F61AFCE4C9003884CA /* Images.xcassets in Resources */,
 				EAAE21F91AFCE4C9003884CA /* MainMenu.xib in Resources */,
+				EAAE22111AFCE60A003884CA /* WindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAAE21F41AFCE4C9003884CA /* AppDelegate.swift in Sources */,
+				EAAE220F1AFCE5FA003884CA /* WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
