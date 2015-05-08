@@ -12,6 +12,11 @@
 		EAAE21F91AFCE4C9003884CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE21F71AFCE4C9003884CA /* MainMenu.xib */; };
 		EAAE220F1AFCE5FA003884CA /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE220E1AFCE5FA003884CA /* WindowController.swift */; };
 		EAAE22111AFCE60A003884CA /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE22101AFCE60A003884CA /* WindowController.xib */; };
+		EAAE221B1AFCE711003884CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE221A1AFCE711003884CA /* AppDelegate.swift */; };
+		EAAE221D1AFCE711003884CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE221C1AFCE711003884CA /* ViewController.swift */; };
+		EAAE22201AFCE711003884CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAE221E1AFCE711003884CA /* Main.storyboard */; };
+		EAAE22221AFCE711003884CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE22211AFCE711003884CA /* Images.xcassets */; };
+		EAAE22251AFCE711003884CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE22231AFCE711003884CA /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,24 @@
 		EAAE21F81AFCE4C9003884CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EAAE220E1AFCE5FA003884CA /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		EAAE22101AFCE60A003884CA /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
+		EAAE22161AFCE711003884CA /* iosProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE22191AFCE711003884CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE221A1AFCE711003884CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAAE221C1AFCE711003884CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAAE221F1AFCE711003884CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAAE22211AFCE711003884CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAAE22241AFCE711003884CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EAAE21EB1AFCE4C9003884CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE22131AFCE711003884CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				EAAE21F01AFCE4C9003884CA /* BonjourTool */,
+				EAAE22171AFCE711003884CA /* iosProvider */,
 				EAAE21EF1AFCE4C9003884CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				EAAE21EE1AFCE4C9003884CA /* BonjourTool.app */,
+				EAAE22161AFCE711003884CA /* iosProvider.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +93,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EAAE22171AFCE711003884CA /* iosProvider */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE221A1AFCE711003884CA /* AppDelegate.swift */,
+				EAAE221C1AFCE711003884CA /* ViewController.swift */,
+				EAAE221E1AFCE711003884CA /* Main.storyboard */,
+				EAAE22211AFCE711003884CA /* Images.xcassets */,
+				EAAE22231AFCE711003884CA /* LaunchScreen.xib */,
+				EAAE22181AFCE711003884CA /* Supporting Files */,
+			);
+			path = iosProvider;
+			sourceTree = "<group>";
+		};
+		EAAE22181AFCE711003884CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE22191AFCE711003884CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,6 +134,23 @@
 			productReference = EAAE21EE1AFCE4C9003884CA /* BonjourTool.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EAAE22151AFCE711003884CA /* iosProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE22321AFCE711003884CA /* Build configuration list for PBXNativeTarget "iosProvider" */;
+			buildPhases = (
+				EAAE22121AFCE711003884CA /* Sources */,
+				EAAE22131AFCE711003884CA /* Frameworks */,
+				EAAE22141AFCE711003884CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosProvider;
+			productName = iosProvider;
+			productReference = EAAE22161AFCE711003884CA /* iosProvider.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +161,9 @@
 				ORGANIZATIONNAME = "Jaanus Kase";
 				TargetAttributes = {
 					EAAE21ED1AFCE4C9003884CA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EAAE22151AFCE711003884CA = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -120,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				EAAE21ED1AFCE4C9003884CA /* BonjourTool */,
+				EAAE22151AFCE711003884CA /* iosProvider */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +198,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAAE22141AFCE711003884CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE22201AFCE711003884CA /* Main.storyboard in Resources */,
+				EAAE22251AFCE711003884CA /* LaunchScreen.xib in Resources */,
+				EAAE22221AFCE711003884CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -147,6 +220,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAAE22121AFCE711003884CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE221D1AFCE711003884CA /* ViewController.swift in Sources */,
+				EAAE221B1AFCE711003884CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -156,6 +238,22 @@
 				EAAE21F81AFCE4C9003884CA /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EAAE221E1AFCE711003884CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAE221F1AFCE711003884CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAAE22231AFCE711003884CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAE22241AFCE711003884CA /* Base */,
+			);
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -263,6 +361,40 @@
 			};
 			name = Release;
 		};
+		EAAE22331AFCE711003884CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iosProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAAE22341AFCE711003884CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iosProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -280,6 +412,14 @@
 			buildConfigurations = (
 				EAAE22091AFCE4C9003884CA /* Debug */,
 				EAAE220A1AFCE4C9003884CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAAE22321AFCE711003884CA /* Build configuration list for PBXNativeTarget "iosProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE22331AFCE711003884CA /* Debug */,
+				EAAE22341AFCE711003884CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
