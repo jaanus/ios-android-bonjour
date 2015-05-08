@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAAE21F41AFCE4C9003884CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE21F31AFCE4C9003884CA /* AppDelegate.swift */; };
+		EAAE21F61AFCE4C9003884CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE21F51AFCE4C9003884CA /* Images.xcassets */; };
+		EAAE21F91AFCE4C9003884CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAE21F71AFCE4C9003884CA /* MainMenu.xib */; };
+		EAAE22051AFCE4C9003884CA /* BonjourToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE22041AFCE4C9003884CA /* BonjourToolTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAAE21FF1AFCE4C9003884CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAE21E61AFCE4C9003884CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAE21ED1AFCE4C9003884CA;
+			remoteInfo = BonjourTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAAE21EE1AFCE4C9003884CA /* BonjourTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE21F21AFCE4C9003884CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE21F31AFCE4C9003884CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAAE21F51AFCE4C9003884CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAAE21F81AFCE4C9003884CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EAAE21FE1AFCE4C9003884CA /* BonjourToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE22031AFCE4C9003884CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE22041AFCE4C9003884CA /* BonjourToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourToolTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAAE21EB1AFCE4C9003884CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE21FB1AFCE4C9003884CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAAE21E51AFCE4C9003884CA = {
+			isa = PBXGroup;
+			children = (
+				EAAE21F01AFCE4C9003884CA /* BonjourTool */,
+				EAAE22011AFCE4C9003884CA /* BonjourToolTests */,
+				EAAE21EF1AFCE4C9003884CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAAE21EF1AFCE4C9003884CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE21EE1AFCE4C9003884CA /* BonjourTool.app */,
+				EAAE21FE1AFCE4C9003884CA /* BonjourToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAE21F01AFCE4C9003884CA /* BonjourTool */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE21F31AFCE4C9003884CA /* AppDelegate.swift */,
+				EAAE21F51AFCE4C9003884CA /* Images.xcassets */,
+				EAAE21F71AFCE4C9003884CA /* MainMenu.xib */,
+				EAAE21F11AFCE4C9003884CA /* Supporting Files */,
+			);
+			path = BonjourTool;
+			sourceTree = "<group>";
+		};
+		EAAE21F11AFCE4C9003884CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE21F21AFCE4C9003884CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAAE22011AFCE4C9003884CA /* BonjourToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE22041AFCE4C9003884CA /* BonjourToolTests.swift */,
+				EAAE22021AFCE4C9003884CA /* Supporting Files */,
+			);
+			path = BonjourToolTests;
+			sourceTree = "<group>";
+		};
+		EAAE22021AFCE4C9003884CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE22031AFCE4C9003884CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAAE21ED1AFCE4C9003884CA /* BonjourTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE22081AFCE4C9003884CA /* Build configuration list for PBXNativeTarget "BonjourTool" */;
+			buildPhases = (
+				EAAE21EA1AFCE4C9003884CA /* Sources */,
+				EAAE21EB1AFCE4C9003884CA /* Frameworks */,
+				EAAE21EC1AFCE4C9003884CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourTool;
+			productName = BonjourTool;
+			productReference = EAAE21EE1AFCE4C9003884CA /* BonjourTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAAE21FD1AFCE4C9003884CA /* BonjourToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE220B1AFCE4C9003884CA /* Build configuration list for PBXNativeTarget "BonjourToolTests" */;
+			buildPhases = (
+				EAAE21FA1AFCE4C9003884CA /* Sources */,
+				EAAE21FB1AFCE4C9003884CA /* Frameworks */,
+				EAAE21FC1AFCE4C9003884CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAE22001AFCE4C9003884CA /* PBXTargetDependency */,
+			);
+			name = BonjourToolTests;
+			productName = BonjourToolTests;
+			productReference = EAAE21FE1AFCE4C9003884CA /* BonjourToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAAE21E61AFCE4C9003884CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jaanus Kase";
+				TargetAttributes = {
+					EAAE21ED1AFCE4C9003884CA = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EAAE21FD1AFCE4C9003884CA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EAAE21ED1AFCE4C9003884CA;
+					};
+				};
+			};
+			buildConfigurationList = EAAE21E91AFCE4C9003884CA /* Build configuration list for PBXProject "BonjourTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAAE21E51AFCE4C9003884CA;
+			productRefGroup = EAAE21EF1AFCE4C9003884CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAE21ED1AFCE4C9003884CA /* BonjourTool */,
+				EAAE21FD1AFCE4C9003884CA /* BonjourToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAAE21EC1AFCE4C9003884CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE21F61AFCE4C9003884CA /* Images.xcassets in Resources */,
+				EAAE21F91AFCE4C9003884CA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE21FC1AFCE4C9003884CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAAE21EA1AFCE4C9003884CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE21F41AFCE4C9003884CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE21FA1AFCE4C9003884CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE22051AFCE4C9003884CA /* BonjourToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAAE22001AFCE4C9003884CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAE21ED1AFCE4C9003884CA /* BonjourTool */;
+			targetProxy = EAAE21FF1AFCE4C9003884CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAAE21F71AFCE4C9003884CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAE21F81AFCE4C9003884CA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAAE22061AFCE4C9003884CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAAE22071AFCE4C9003884CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EAAE22091AFCE4C9003884CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAAE220A1AFCE4C9003884CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAAE220C1AFCE4C9003884CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BonjourToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourTool.app/Contents/MacOS/BonjourTool";
+			};
+			name = Debug;
+		};
+		EAAE220D1AFCE4C9003884CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BonjourToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourTool.app/Contents/MacOS/BonjourTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAAE21E91AFCE4C9003884CA /* Build configuration list for PBXProject "BonjourTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE22061AFCE4C9003884CA /* Debug */,
+				EAAE22071AFCE4C9003884CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAE22081AFCE4C9003884CA /* Build configuration list for PBXNativeTarget "BonjourTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE22091AFCE4C9003884CA /* Debug */,
+				EAAE220A1AFCE4C9003884CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAAE220B1AFCE4C9003884CA /* Build configuration list for PBXNativeTarget "BonjourToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE220C1AFCE4C9003884CA /* Debug */,
+				EAAE220D1AFCE4C9003884CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAAE21E61AFCE4C9003884CA /* Project object */;
+}
