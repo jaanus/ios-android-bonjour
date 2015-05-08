@@ -5,7 +5,6 @@ import android.net.nsd.NsdManager;
 import android.net.nsd.NsdServiceInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
-import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,7 +27,6 @@ import fi.iki.elonen.NanoHTTPD;
 public class MainActivity extends ActionBarActivity {
 
     private int PORT;
-    private Handler handler = new Handler();
     private MyHTTPD server;
     private NsdServiceInfo serviceInfo;
     private NsdManager mNsdManager;
