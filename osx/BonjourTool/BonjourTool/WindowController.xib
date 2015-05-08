@@ -6,6 +6,8 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="WindowController" customModule="BonjourTool" customModuleProvider="target">
             <connections>
+                <outlet property="devicesArrayController" destination="zfv-tO-Sy6" id="pMv-Wo-gTI"/>
+                <outlet property="webViewContainer" destination="LA4-0z-V9L" id="F2o-Bj-ado"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="SWK-Zg-8Ge"/>
             </connections>
         </customObject>
@@ -35,7 +37,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" id="MCx-an-H1G">
-                                    <rect key="frame" x="0.0" y="0.0" width="238" height="117"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="173" height="0.0"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -58,15 +60,23 @@
                                                     <rect key="frame" x="1" y="1" width="170" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
-                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uqv-MI-Fsn">
-                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="17"/>
+                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Uqv-MI-Fsn">
+                                                            <rect key="frame" x="0.0" y="0.0" width="170" height="17"/>
                                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="Gvl-Qb-wiV">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <binding destination="iUU-kg-Ec2" name="value" keyPath="objectValue.name" id="4kd-p3-nmv"/>
+                                                            </connections>
                                                         </textField>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="Uqv-MI-Fsn" firstAttribute="leading" secondItem="iUU-kg-Ec2" secondAttribute="leading" constant="2" id="Eva-E9-Hbj"/>
+                                                        <constraint firstItem="Uqv-MI-Fsn" firstAttribute="top" secondItem="iUU-kg-Ec2" secondAttribute="top" id="wL8-zt-V3r"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Uqv-MI-Fsn" secondAttribute="trailing" constant="2" id="yYn-G4-CA7"/>
+                                                    </constraints>
                                                     <connections>
                                                         <outlet property="textField" destination="Uqv-MI-Fsn" id="abo-9F-xGC"/>
                                                     </connections>
@@ -74,6 +84,10 @@
                                             </prototypeCellViews>
                                         </tableColumn>
                                     </tableColumns>
+                                    <connections>
+                                        <binding destination="zfv-tO-Sy6" name="content" keyPath="arrangedObjects" id="hjs-0E-CGn"/>
+                                        <binding destination="zfv-tO-Sy6" name="selectionIndexes" keyPath="selectionIndexes" previousBinding="hjs-0E-CGn" id="kn4-2J-ffa"/>
+                                    </connections>
                                 </tableView>
                             </subviews>
                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -117,5 +131,11 @@
                 </constraints>
             </view>
         </window>
+        <arrayController id="zfv-tO-Sy6" userLabel="Devices">
+            <connections>
+                <binding destination="-2" name="contentArray" keyPath="self.netServices" id="c2d-Wf-UX9"/>
+            </connections>
+        </arrayController>
+        <userDefaultsController representsSharedInstance="YES" id="3L3-Ek-fY9"/>
     </objects>
 </document>
