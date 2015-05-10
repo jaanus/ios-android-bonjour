@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         server.startWithOptions([
             GCDWebServerOption_Port: 0,
             GCDWebServerOption_BonjourType: "_jktest._tcp",
-            GCDWebServerOption_BonjourName: ""
+            GCDWebServerOption_BonjourName: "jktest_iosprovider",
             ], error: &serverStartError)
         println("Server started at URL \(server.serverURL). Start error: \(serverStartError)")
     }
